@@ -1,0 +1,22 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'Experiment_MFC'
+				'Experiment_MFC.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'Experiment_MFC'
+				'Experiment_MFC.EXE'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}

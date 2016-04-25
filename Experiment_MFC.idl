@@ -1,0 +1,19 @@
+// Experiment_MFC.idl: источник IDL для Experiment_MFC
+//
+
+// Этот файл будет обработан средством MIDL для
+// создания библиотеки типов (Experiment_MFC.tlb) и маршалирования кода.
+
+import "ocidl.idl";
+import "oaidl.idl";
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(3E783114-BF7E-46AE-AEC6-D55EE025CDE7),
+	version(1.0)	
+]
+library Experiment_MFCLib
+{
+	importlib("stdole2.tlb");
+};
